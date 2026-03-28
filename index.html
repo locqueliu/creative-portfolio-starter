@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Portfolio Starter</title>
+    <meta
+      name="description"
+      content="A public-safe creative portfolio starter for AI visuals, motion work, and technical case studies."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <span class="brand-mark">Creative Portfolio Starter</span>
+          <p class="brand-note">Public-safe template for creative technologists.</p>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#system">System</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">AI VISUALS · MOTION · CASE STUDIES</p>
+            <h1>
+              A portfolio starter for people who build
+              <span>creative systems, not just screens.</span>
+            </h1>
+            <p class="hero-text">
+              This public-safe starter is designed for designers, motion artists, AI
+              builders, and creative coders who need a portfolio that feels like a
+              poster first and a resume second.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#projects">Browse the structure</a>
+              <a class="button button-ghost" href="#contact">Customize for your work</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-stage">
+              <div class="visual-slab slab-one"></div>
+              <div class="visual-slab slab-two"></div>
+              <div class="visual-slab slab-three"></div>
+              <div class="visual-caption">
+                <span>Visual thesis</span>
+                <strong>Calm premium composition with technical depth.</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="statement reveal">
+          <div class="statement-line">
+            <p>
+              Use one striking first screen, a small number of rich projects, and a
+              clear process section. The goal is not to list every tool. The goal is
+              to make your point of view obvious in under ten seconds.
+            </p>
+          </div>
+        </section>
+
+        <section class="projects reveal" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Structure</p>
+            <h2>Project slots built for creative-tech work.</h2>
+          </div>
+          <div class="project-list" id="project-list"></div>
+        </section>
+
+        <section class="system reveal" id="system">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio System</p>
+            <h2>Shape the site around proof, not around decoration.</h2>
+          </div>
+          <div class="system-grid">
+            <article>
+              <span>01</span>
+              <h3>Poster hero</h3>
+              <p>
+                Make the first viewport behave like a campaign image with one loud
+                promise and one calm visual field.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Case-study rhythm</h3>
+              <p>
+                Alternate finished outputs, workflow notes, and production logic so
+                recruiters can scan quickly and still see depth.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Selective tools</h3>
+              <p>
+                Group tools by capability, then only show the stack that explains the
+                work. Avoid giant icon walls.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="toolkit reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Capabilities</p>
+            <h2>Organize tools around outcomes.</h2>
+          </div>
+          <div class="tool-rows" id="tool-rows"></div>
+        </section>
+
+        <section class="contact reveal" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Final CTA</p>
+            <h2>Turn the template into your own public-facing portfolio.</h2>
+            <p>
+              Replace the sample projects with your real case studies, point the CTA
+              to your portfolio domain, and use GitHub Pages or any static host to
+              publish.
+            </p>
+          </div>
+          <a class="button button-solid" href="./README.md">Read setup notes</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
