@@ -2,47 +2,49 @@
 
 # creative-portfolio-starter
 
-A public-safe portfolio starter for creative technologists, motion designers, AI visual builders, and hybrid makers.
+[Chinese Version](./README_zh.md)
 
-This repo is intentionally generic. It does not include any private client materials, internal workflows, or unreleased assets. Instead, it gives you a polished structure you can customize with your own case studies.
+This is the portfolio structure I reach for when I want a site to feel closer to a poster or campaign page than a dashboard full of cards.
 
-## What this starter includes
+I built it around the kind of work I care about most: visual direction, motion, AI-assisted production, 3D, and projects that benefit from a strong first screen.
 
-- full-bleed poster-style hero
-- curated case-study section instead of a generic card grid
-- capability rows for design, motion, 3D, and AI systems
-- small reveal animations with zero dependencies
-- static hosting friendly structure
+## What is inside
 
-## Why this exists
-
-Many portfolio templates look like generic SaaS dashboards or resume cards. This one is built around a different idea:
-
-- one strong first impression
-- a small number of rich projects
-- visible production depth
-- clear CTA and contact path
+- a full-bleed landing section with a clear visual hierarchy
+- a case-study layout built for a small number of stronger projects
+- grouped capability rows for design, motion, 3D, and AI systems
+- lightweight reveal behavior with no framework dependency
+- a static structure that is easy to host anywhere
 
 ## Files
 
-- `index.html` – page structure
-- `styles.css` – art direction, layout, motion, responsiveness
-- `data.js` – sample projects and grouped capabilities
-- `main.js` – lightweight rendering and reveal behavior
+- `index.html` page structure
+- `styles.css` layout, art direction, motion, and responsive rules
+- `data.js` project data and grouped capability content
+- `main.js` lightweight rendering and reveal behavior
+
+## Why I keep this starter around
+
+Many portfolio templates are optimized for quantity. I usually want the opposite:
+
+- one strong opening image or statement
+- fewer projects, but each one feels intentional
+- enough technical depth to show how the work was made
+- a contact path that is visible without feeling like a sales page
 
 ## How to use
 
-1. Replace the sample project entries in `data.js`
-2. Rewrite the hero copy around your actual niche
-3. Swap the CTA link for your own contact or portfolio domain
-4. Deploy to GitHub Pages, Netlify, or any static host
+1. Replace the sample content in `data.js`
+2. Rewrite the hero around your own direction and niche
+3. Swap the CTA link for your own contact or domain
+4. Host it with GitHub Pages, Netlify, or any static platform
 
-## Suggested customization
+## Good customizations
 
-- Replace "AI product imagery" with your best real case study
-- Add one commercial result or performance metric per project
-- Keep the first screen clean; do not add a wall of icons
-- Keep tools grouped by outcome, not by software popularity
+- replace the placeholder case studies with real work
+- keep one result, one process note, and one strong visual for each project
+- group tools by outcome instead of listing software names without context
+- keep the first screen clean and intentional
 
 ## License
 
