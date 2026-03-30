@@ -1,4 +1,4 @@
-![Cover](./assets/cover.svg)
+![Repo banner](./assets/repo-banner.svg)
 
 # creative-portfolio-starter
 
